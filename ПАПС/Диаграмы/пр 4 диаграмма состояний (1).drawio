@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="OfYZ7nw2yEnurA1dmTs2">
+    <mxGraphModel dx="656" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-47" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="640" />
+              <mxPoint x="710" y="640" />
+              <mxPoint x="710" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" value="" vertex="1">
+          <mxGeometry height="570" width="340" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-2" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-1" style="endArrow=none;html=1;rounded=0;entryX=0.995;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.068;exitDx=0;exitDy=0;exitPerimeter=0;" target="dft3_y4lhbbFAYB2LCrw-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Процесс миграции монолита" vertex="1">
+          <mxGeometry height="40" width="200" x="155" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ожидание действий пользователя" vertex="1">
+          <mxGeometry height="40" width="120" x="540" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-11" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="160" />
+            </Array>
+            <mxPoint x="420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Нажата кнопка запуска" vertex="1">
+          <mxGeometry height="30" width="110" x="430" y="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-23" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-58" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Эвристический анализ" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-22" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Очистка моделей БД" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Формирование микросервисов" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-25" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Генерация инфраструктуры" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-59" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Запуск контейнеров" vertex="1">
+          <mxGeometry height="45" width="120" x="190" y="477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-20" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="264" y="370" as="sourcePoint" />
+            <mxPoint x="266" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" value="Формирование логов" vertex="1">
+          <mxGeometry height="45" width="120" x="95" y="543.75" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сервисы не обнаружены" vertex="1">
+          <mxGeometry height="30" width="80" x="115" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Модели изолированы" vertex="1">
+          <mxGeometry height="30" width="110" x="245" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ошибка Docker" vertex="1">
+          <mxGeometry height="30" width="60" x="135" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Успешно" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="522.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-52" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сервисы обнаружены" vertex="1">
+          <mxGeometry height="30" width="85" x="250" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-57" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dft3_y4lhbbFAYB2LCrw-54" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="478" as="sourcePoint" />
+            <mxPoint x="250" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-54" parent="1" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="32.5" width="32.5" x="232.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-60" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="dft3_y4lhbbFAYB2LCrw-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-61" parent="1" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="32.5" width="32.5" x="233.75" y="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-65" edge="1" parent="1" source="dft3_y4lhbbFAYB2LCrw-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dft3_y4lhbbFAYB2LCrw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft3_y4lhbbFAYB2LCrw-63" parent="1" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="32.5" width="32.5" x="583.75" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
