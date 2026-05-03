@@ -1,0 +1,54 @@
+@startuml
+skinparam componentStyle uml2
+skinparam nodesep 40
+skinparam ranksep 50
+
+' --- Внешние библиотеки (Сверху) ---
+component "customtkinter" <<library>> as ctk
+component "ast" <<library>> as ast_lib
+component "jinja2" <<library>> as jinja
+
+interface "CTk" as I_CTk
+interface "NodeVisitor" as I_NodeVisitor
+interface "Environment" as I_Environment
+
+ctk -down- I_CTk
+ast_lib -down- I_NodeVisitor
+jinja -down- I_Environment
+
+' --- Главный исполняемый файл (По центру) ---
+component "main.py" <<executable>> as main
+
+' Зависимость ядра от интерфейса GUI
+main ..> I_CTk
+
+' --- Внутренние модули (Снизу) ---
+interface "Scanner" as I_Scanner
+interface "Generator" as I_Generator
+interface "DockerManager" as I_DockerManager
+
+component "scanner.py" <<source>> as scanner_mod
+component "generator.py" <<source>> as generator_mod
+component "docker_manager.py" <<source>> as docker_mod
+
+I_Scanner -down- scanner_mod
+I_Generator -down- generator_mod
+I_DockerManager -down- docker_mod
+
+' Зависимости ядра от внутренних модулей
+main ..> I_Scanner
+main ..> I_Generator
+main ..> I_DockerManager
+
+' Зависимости модулей от внешних библиотек
+scanner_mod ..> I_NodeVisitor
+generator_mod ..> I_Environment
+
+' --- Генерируемые артефакты (В самом низу) ---
+component "docker-compose.yaml" <<file>> as compose
+component "Dockerfile" <<file>> as dfile
+
+generator_mod ..> compose
+generator_mod ..> dfile
+
+@enduml
